@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 use ZhyuJqueryAdmin\Commands\MakeCrudCommand;
+use ZhyuJqueryAdmin\Commands\MakeDatatableCommand;
 use ZhyuJqueryAdmin\Commands\MakeResourceCollectionCommand;
 use ZhyuJqueryAdmin\Commands\MakeResourceCommand;
 use ZhyuJqueryAdmin\Decorates\Buttons\NormalButton;
@@ -22,6 +23,7 @@ class ZhyuServiceProvider extends ServiceProvider
 {
     protected $commands = [
         MakeCrudCommand::class,
+        MakeDatatableCommand::class,
         MakeResourceCommand::class,
         MakeResourceCollectionCommand::class,
     ];
