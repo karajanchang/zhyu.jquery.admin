@@ -6,7 +6,7 @@
  * Time: 22:34
  */
 
-namespace Zhyu\Repositories\Eloquents;
+namespace ZhyuJqueryAdmin\Repositories\Eloquents;
 
 use Illuminate\Support\Collection;
 use Zhyu\Repositories\Contracts\RepositoryInterface;

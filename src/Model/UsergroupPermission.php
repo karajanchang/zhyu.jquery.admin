@@ -2,7 +2,6 @@
 namespace ZhyuJqueryAdmin\Model;
 
 use App\Usergroup;
-use ZhyuJqueryAdmin\Model\Resource;
 use Illuminate\Database\Eloquent\Model;
 
 class UsergroupPermission extends Model {

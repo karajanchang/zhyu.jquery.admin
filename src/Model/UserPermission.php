@@ -1,8 +1,7 @@
 <?php
-namespace Zhyu\Model;
+namespace ZhyuJqueryAdmin\Model;
 
 use App\User;
-use ZhyuJqueryAdmin\Model\Resource;
 use Illuminate\Database\Eloquent\Model;
 
 class UserPermission extends Model {

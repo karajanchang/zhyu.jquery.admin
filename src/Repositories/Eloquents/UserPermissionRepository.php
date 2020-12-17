@@ -2,7 +2,7 @@
 
 namespace ZhyuJqueryAdmin\Repositories\Eloquents;
 
-use Zhyu\Model\UserPermission;
+use ZhyuJqueryAdmin\Model\UserPermission;
 use Zhyu\Repositories\Eloquents\Repository;
 
 class UserPermissionRepository extends Repository

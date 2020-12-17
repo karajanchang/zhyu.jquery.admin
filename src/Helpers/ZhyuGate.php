@@ -10,7 +10,7 @@ namespace ZhyuJqueryAdmin\Helpers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Schema;
-use Zhyu\Repositories\Eloquents\ResourceRepository;
+use ZhyuJqueryAdmin\Repositories\Eloquents\ResourceRepository;
 use ZhyuJqueryAdmin\Repositories\Eloquents\UsergroupPermissionRepository;
 use ZhyuJqueryAdmin\Repositories\Eloquents\UserPermissionRepository;
 use Illuminate\Support\Facades\Log;

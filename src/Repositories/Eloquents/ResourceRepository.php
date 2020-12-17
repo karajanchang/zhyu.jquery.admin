@@ -1,6 +1,6 @@
 <?php
 
-namespace Zhyu\Repositories\Eloquents;
+namespace ZhyuJqueryAdmin\Repositories\Eloquents;
 
 
 use ZhyuJqueryAdmin\Model\Resource;
