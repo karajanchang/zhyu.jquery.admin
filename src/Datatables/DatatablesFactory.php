@@ -11,15 +11,18 @@ namespace ZhyuJqueryAdmin\Datatables;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Collection;
+use ZhyuJqueryAdmin\Datatables\Configs\ResourceDatatables;
 use ZhyuJqueryAdmin\Datatables\Configs\TestDatatables;
+use ZhyuJqueryAdmin\Datatables\Configs\UserDatatables;
+use ZhyuJqueryAdmin\Datatables\Configs\UsergroupDatatables;
 
 
 class DatatablesFactory {
 
     const systems = [
-        'resources' => \Zhyu\Datatables\Configs\ResourceDatatables::class,
-        'user' => \Zhyu\Datatables\Configs\UserDatatables::class,
-        'usergroup' => \Zhyu\Datatables\Configs\UsergroupDatatables::class,
+        'resources' => ResourceDatatables::class,
+        'user' => UserDatatables::class,
+        'usergroup' => UsergroupDatatables::class,
     ];
 
     public static function bind(string $name = null){

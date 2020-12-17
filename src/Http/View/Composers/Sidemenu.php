@@ -6,13 +6,13 @@
  * Time: 16:39
  */
 
-namespace Zhyu\Http\View\Composers;
+namespace ZhyuJqueryAdmin\Http\View\Composers;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\View\View;
 use Zhyu\Repositories\Criterias\Common\OrderByOrderbyDesc;
-use Zhyu\Repositories\Criterias\Resources\IsChild;
-use Zhyu\Repositories\Eloquents\ResourceRepository;
+use ZhyuJqueryAdmin\Repositories\Criterias\Resources\IsChild;
+use ZhyuJqueryAdmin\Repositories\Eloquents\ResourceRepository;
 
 class Sidemenu
 {

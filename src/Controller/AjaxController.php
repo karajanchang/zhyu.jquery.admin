@@ -15,10 +15,10 @@ use Zhyu\Repositories\Contracts\RepositoryInterface;
 use Zhyu\Repositories\Criterias\Common\OrderByCustom;
 use Zhyu\Repositories\Criterias\Common\OrWhereByCustom;
 use Zhyu\Repositories\Criterias\Common\WhereByCustom;
-use Zhyu\Repositories\Criterias\CriteriaApp;
 use Zhyu\Repositories\Eloquents\Repository;
-use Zhyu\Repositories\Eloquents\RepositoryApp;
 use ZhyuJqueryAdmin\Controller\Controller as ZhyuController;
+use ZhyuJqueryAdmin\Repositories\Criterias\CriteriaApp;
+use ZhyuJqueryAdmin\Repositories\Eloquents\RepositoryApp;
 
 class AjaxController extends ZhyuController
 {

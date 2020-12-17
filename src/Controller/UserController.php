@@ -4,9 +4,9 @@ namespace ZhyuJqueryAdmin\Controller;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Http\Request;
 use Illuminate\Pagination\Paginator;
-use Zhyu\Datatables\DatatablesFactoryApp;
 use Zhyu\Facades\ZhyuUrl;
 use ZhyuJqueryAdmin\Controller\Controller as ZhyuController;
+use ZhyuJqueryAdmin\Datatables\DatatablesFactoryApp;
 use ZhyuJqueryAdmin\Repositories\Eloquents\UserPermissionRepository;
 use ZhyuJqueryAdmin\Repositories\Eloquents\UserRepository;
 

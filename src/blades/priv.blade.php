@@ -110,7 +110,7 @@
                             <form action="" method="post">
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        @inject('resource', 'Zhyu\Model\Resource')
+                                        @inject('resource', 'ZhyuJqueryAdmin\Model\Resource')
                                         @php
                                             $all = $resource->whereNull('parent_id')->orWhere('parent_id', 0)->orderby('orderby', 'desc')->get();
                                         @endphp

@@ -90,7 +90,7 @@ class ZhyuServiceProvider extends ServiceProvider
                 ], 'zhyu:view');
 
                 if (env('ZHYU_RESOURCE_ENABLE', false) && Schema::hasTable('resources')) {
-                    View::composer('vendor.zhyu.blocks.sidemenu', 'Zhyu\Http\View\Composers\Sidemenu');
+                    View::composer('vendor.zhyu.blocks.sidemenu', 'ZhyuJqueryAdmin\Http\View\Composers\Sidemenu');
                 }
             }
         }

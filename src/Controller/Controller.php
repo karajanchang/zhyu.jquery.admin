@@ -14,9 +14,8 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
-use Zhyu\Datatables\DatatablesService;
+use ZhyuJqueryAdmin\Datatables\DatatablesService;
 use Zhyu\Facades\ZhyuTool;
-use Zhyu\Repositories\Eloquents\RepositoryApp;
 use Illuminate\Support\Facades\Log;
 
 class Controller extends BaseController

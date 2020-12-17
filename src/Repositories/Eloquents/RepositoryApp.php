@@ -19,9 +19,9 @@ class RepositoryApp{
     }
     public static function bind($name){
         $systems = [
-            'resources' => \Zhyu\Repositories\Eloquents\ResourceRepository::class,
-            'user' => \Zhyu\Repositories\Eloquents\UserRepository::class,
-            'usergroup' => \Zhyu\Repositories\Eloquents\UsergroupRepository::class,
+            'resources' => ResourceRepository::class,
+            'user' => UserRepository::class,
+            'usergroup' => UsergroupRepository::class,
         ];
         if(key_exists($name, $systems)){
             $class = $systems[$name];
