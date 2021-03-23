@@ -1,7 +1,7 @@
 <?php
 //---給表單用，檢查此表單元素是否有在query裡
 if (!function_exists('QueryIfExist')) {
-    function QueryIfExist(array $query = null, string $col, string $table = null, string $callback = null){
+    function QueryIfExist(array $query = null, string $col = null, string $table = null, string $callback = null){
         if(is_null($query)) return false;
 
         $bool = 0;
@@ -47,7 +47,7 @@ if (!function_exists('QueryIfExist')) {
 }
 
 if (!function_exists('QueryIfArrayEual')) {
-    function QueryIfArrayEual($query = null, $column, $callback){
+    function QueryIfArrayEual($query = null, $column = null, $callback = null){
         if(is_null($query)) return false;
 
         if(is_array($query[$column])){
@@ -61,7 +61,7 @@ if (!function_exists('QueryIfArrayEual')) {
 }
 
 if (!function_exists('QueryColValue')) {
-    function QueryColValue(array $query = null, string $col, string $table = null)
+    function QueryColValue(array $query = null, string $col = null, string $table = null)
     {
         if(is_null($query)) return '';
 
@@ -102,7 +102,7 @@ if (!function_exists('RemoveUnwantTagsFromValue')) {
 }
 
 if (!function_exists('QueryColValueArray')) {
-    function QueryColValueArray($query = null, $column)
+    function QueryColValueArray($query = null, $column = null)
     {
         if(is_null($query)) return '';
 
