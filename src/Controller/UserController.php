@@ -145,7 +145,7 @@ class UserController extends ZhyuController
     {
         $this->authorize('admin.users.destroy');
 
-        $this->repository->delete($id);
+        $this->repository->update($id, ['is_online' => 0]);
 
         return $this->responseJson('success');
     }
