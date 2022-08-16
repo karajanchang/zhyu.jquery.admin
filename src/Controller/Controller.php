@@ -247,7 +247,7 @@ class Controller extends BaseController
         return response()->json([ 'message' => $message ], $status);
     }
 
-    private function getAddOrUpdateUrl($model, $table = null, $route) : string {
+    private function getAddOrUpdateUrl($model = null, $table = null, $route = null) : string {
         $addOrUpdateUrl = '';
         if(!empty($model->id)){
             try{
